@@ -181,5 +181,11 @@ body,html {
   .hero-info h1 {
     font-size: 40px;
   }
+  .footer h3 {
+    display: none;
+  }
+  .footer h4 {
+    margin-left: 20px;
+  }
 }
 

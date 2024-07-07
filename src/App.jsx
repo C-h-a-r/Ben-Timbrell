@@ -54,7 +54,7 @@ export default function App() {
       <div className='footer'>
         <h3> BEN TIMBRELL</h3>
         <h4> MADE BY <a href="https://char-mu.vercel.app">CHAR</a></h4>
-        <div clasName='footer-gas'>
+        <div>
 <img src="/gas.png"/>
         </div>
       </div>
