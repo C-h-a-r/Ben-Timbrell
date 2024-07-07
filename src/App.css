@@ -58,9 +58,7 @@ body,html {
   font-weight: 200;
   margin-top: -80px;
 }
-.book h2 span {
-  color: #FFB443;
-}
+
 
 .images {
   line-height: 0;
@@ -83,6 +81,41 @@ body,html {
   margin-bottom: 20px;
   display: block;
 }
+
+
+.footer {
+   background-color: #4531be;
+  color: white;
+  font-weight: 200;
+  display: flex;                  
+  flex-direction: row;            
+  flex-wrap: nowrap;              
+  justify-content: space-between;
+  margin-top: 50px;
+  width: 100vw;
+}
+
+.footer h4 a {
+  text-decoration: none;
+  color: #FFB443;
+}
+.footer h3 {
+  font-weight: 200;
+  margin-left: 50px;
+}
+.footer h4 {
+  font-weight: 200;
+}
+
+.footer-gas {
+  display: flex; /* Use flexbox */
+  align-items: center; /* Center items vertically */
+}
+
+.footer-gas img {
+  margin-right: 1000px; /* Optional: Add some spacing between image and text */
+}
+
 
 @media (max-width: 1200px) {
   .images {
