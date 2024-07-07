@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+body,html {
+  font-family: "Koulen", sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.hero {
+  background-color: #4531be;
+  padding-bottom: 100px;
+  display: flex;
+}
+.hero-info {
+  color: white;
+  margin-left: 80px;
+}
+.hero-info h1 {
+  font-size: 80px;
+  font-weight: 200;
+}
+.info-spliter {
+  background-color: #FFB443;
+  width: 600px;
+  height: 5px;
+  display: block;
+  margin-top: -70px;
+}
+.hero-info p {
+  font-size: 25px;
+  margin-top: -3px;
+}
+.hero-info p span {
+  color: #FFB443;
+}
+.hero-car {
+  position: absolute;
+  right: -200px;
+}
+.hero-car img {
+  width: 800px;
+  margin-top: -50px;
+}
+.book {
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  background-color: #E9E9E9;
+  margin-top: 50px;
+}
+
+.book h1 {
+  font-size: 60px;
+  font-weight: 200;
+}
+.book h2 {
+  font-size: 60px;
+  font-weight: 200;
+  margin-top: -80px;
+}
+.book h2 span {
+  color: #FFB443;
+}
+
+.images {
+  line-height: 0;
+  -webkit-column-count: 5;
+  -webkit-column-gap: 60px;
+  -moz-column-count: 5;
+  -moz-column-gap: 60px;
+  column-count: 5;
+  column-gap: 60px;
+  width: 90%;
+  margin: auto;
+  text-align: center; 
+}
+
+.images img {
+  width: 100%; 
+  height: auto;
+  max-width: 100%; 
+  border: 20px solid #E9E9E9;
+  margin-bottom: 20px;
+  display: block;
+}
+
+@media (max-width: 1200px) {
+  .images {
+    -moz-column-count: 4;
+    -webkit-column-count: 4;
+    column-count: 4;
+  }
+  .images img {
+    max-width: calc(100% - 40px); 
+  }
+}
+
+@media (max-width: 1000px) {
+  .images {
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-count: 3;
+  }
+  .images img {
+    max-width: calc(100% - 40px); 
+  }
+}
+
+@media (max-width: 800px) {
+  .images {
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+  }
+  .images img {
+    max-width: calc(100% - 40px); 
+  }
+}
+
+@media (max-width: 400px) {
+  .images {
+    -moz-column-count: 1;
+    -webkit-column-count: 1;
+    column-count: 1;
+  }
+  .images img {
+    max-width: calc(100% - 40px); 
+  }
+  .hero-car {
+    display: none;
+  }
+  .info-spliter {
+    width: 200px;
+    margin-top: -40px;
+  }
+  .book h1 {
+    font-size: 40px;
+  }
+  .book h2 {
+    font-size: 40px;
+    margin-top: -40px;
+  }
+  .hero-info {
+    margin: auto;
+    width: 90%;
+    padding-bottom: 0px;
+  }
+  .hero-info h1 {
+    font-size: 40px;
+  }
+}
+
